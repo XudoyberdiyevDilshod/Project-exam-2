@@ -10,6 +10,7 @@ html {
 }
 
 body {
+  font-family: "Futura PT";
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -19,6 +20,11 @@ body {
 
 main {
   flex-grow: 1;
+  background-color: #F9F9F9;
+  background-image: url("../images/bg.webp");
+  background-repeat: no-repeat;
+  background-size: 1554px 4367px;
+  background-position: calc(50% - 100px) calc(50% + 104px);
 }
 
 img {
