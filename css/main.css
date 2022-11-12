@@ -1178,4 +1178,44 @@ img {
 
 .text-three {
   margin-bottom: 31px;
+}
+
+.connect {
+  padding-bottom: 244px;
+}
+
+.connect__inner {
+  width: 100%;
+  max-width: 1463px;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.connect__content {
+  width: 100%;
+  max-width: 998px;
+  padding: 62px 0 74px 166px;
+  background-image: url("../images/feedback-bg.webp");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #333333;
+}
+
+.connect__title {
+  margin: 0;
+  margin-bottom: 14px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 62px;
+  color: #ffffff;
+}
+
+.connect__text {
+  margin: 0;
+  margin-bottom: 29px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
 }/*# sourceMappingURL=main.css.map */
