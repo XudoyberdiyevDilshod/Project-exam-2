@@ -90,6 +90,7 @@
 				<div class="container">
 					<div class="services__inner">
 						<h2 class="services__title">Наши услуги</h2>
+						<img class="arrow arrow-l" src="./images/arrow-r.svg" alt="arrow left" width="14" height="26">
 						<ul class="services__list">
 							<li class="services__item">
 								<h3 class="services__heading">Первичный осмотр</h3>
@@ -110,6 +111,7 @@
 								<h3 class="services__heading">Офтальмология</h3>
 							</li>
 						</ul>
+						<img class="arrow arrow-r" src="./images/arrow-l.svg" alt="arrow left" width="14" height="26">
 						<div class="services__part part">
 							<div class="part__content">
 								<h3 class="part__title">Первичный осмотр</h3>
@@ -162,7 +164,7 @@
 									<time class="wrapper-item__time" datetime="2020-08-28">28.08.2020</time>
 									<h3 class="wrapper-item__title title-one">Ультразвуковая чистка зубов</h3>
 									<p class="wrapper-item__text text-one">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
-									<a class="header-main__btn wrapper-item__link" href="#">Читать больше</a>
+									<a class="header-main__btn wrapper-item__link link" href="#">Читать больше</a>
 								</div>
 							</li>
 							<li class="wrapper__item wrapper-item">
@@ -191,7 +193,7 @@
 									</ul>
 									<h3 class="wrapper-item__title title-two">Перед тем как завести собаку</h3>
 									<p class="wrapper-item__text text-two">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от заводчиков, Бивают и ситуации когда животное находят на улице и дают ему теплый дом. И первым вопросом, который возникает у новых хозяев – как определить возраст котенка. Появление в доме котенка приятное и радосное событие.</p>
-									<a class="header-main__btn wrapper-item__link" href="#">Читать больше</a>
+									<a class="header-main__btn wrapper-item__link link" href="#">Читать больше</a>
 								</div>
 							</li>
 							<li class="wrapper__item wrapper-item">
@@ -213,7 +215,7 @@
 									<time class="wrapper-item__time" datetime="2020-07-21">21.07.2020</time>
 									<h3 class="wrapper-item__title title-three">Когда привавать питомца?</h3>
 									<p class="wrapper-item__text text-three">Появление в доме котенка приятное и радосное событие. Но не всегда этот пушистый зверек берется от ...</p>
-									<a class="header-main__btn wrapper-item__link" href="#">Читать больше</a>
+									<a class="header-main__btn wrapper-item__link link" href="#">Читать больше</a>
 								</div>
 							</li>
 						</ol>
@@ -224,14 +226,68 @@
 				<div class="connect__inner">
 					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12697.007127850513!2d69.27746370932891!3d41.32855275211009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b458e64b125%3A0x89d848971c698019!2zTWlub3IsINCl0YPRgNGI0LjQtNCwINGD0LvQuNGG0LAsINCi0L7RiNC60LXQvdGCLCBPYHpiZWtpc3Rvbg!5e0!3m2!1suz!2s!4v1668273484161!5m2!1suz!2s" width="462" height="652" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 					<div class="connect__content">
-						<h2 class="connect__title">Обратная связь</h2>
-						<p class="connect__text">При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:</p>
-						<form class="form" action="https://echo.htmlacademy.ru/" method="post" target="_blank">
-							<input type="text">
-						</form>
+						<div class="connect__desc">
+							<h2 class="connect__title">Обратная связь</h2>
+							<p class="connect__text">При возникновении вопросов по поводу работы клиники или консультаций, заполните форму ниже:</p>
+							<form class="connect__form" action="https://echo.htmlacademy.ru/" method="post" target="_blank">
+								<input class="connect__input" type="text" name="your name" placeholder="Ваше имя" aria-label="write your name" required>
+								<input class="connect__input" type="email" name="your email" placeholder="Укажите Ваш email адрес" aria-label="write your email address" required>
+								<textarea name="Text" id="textarea" rows="7" placeholder="Опишите Ваш вопрос.Например: в каком возрасте можно прививать от бешенства?">
+								</textarea>
+								<button class="connect__button" type="submit">Задать нам вопрос</button>
+							</form>
+						</div>
 					</div>
 				</div>
 			</section>
 		</main>
+		<footer class="site-footer">
+			<div class="container">
+				<div class="site-footer__inner">
+					<a class="site-footer__link" href="./index.html">
+						<img class="site-footer__img"  src="./images/logo.svg" alt="site logo" width="158" height="77">
+					</a>
+					<div class="site-footer__navbar">
+						<ul class="site-footer__list">
+							<li class="site-footer__item">
+								<a class="site-footer__link" href="#">Главная</a>
+							</li>
+							<li class="site-footer__item">
+								<a class="site-footer__link" href="#">Полезные Статьи</a>
+							</li>
+							<li class="site-footer__item">
+								<a class="site-footer__link" href="#">О Клинике</a>
+							</li>
+							<li class="site-footer__item">
+								<a class="site-footer__link" href="#">FAQ</a>
+							</li>
+							<li class="site-footer__item">
+								<a class="site-footer__link" href="#">Наши Услуги</a>
+							</li>
+							<li class="site-footer__item">
+								<a class="site-footer__link" href="#">Контакты</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="footer__list footer-main">
+						<li class="footer__item">
+							<ul class="footer-main__list">
+								<li class="footer-main__item">Пн - Пт 8:00 - 18:00</li>
+								<li class="footer-main__item">Сб - Вс 8:00 - 14:00</li>
+							</ul>
+						</li>
+						<li class="footer__item">г. Мариуполь, проспект Победы, 48а</li>
+						<li class="footer__item">
+							<a class="footer__link" href="tel:+0676347574">(067) 634 -75 - 74</a>
+							<a class="footer__link" href="tel:+0637570131">(0637) 57 - 01 - 31</a>
+							<a class="footer__link" href="tel:+0982664389">(098) 266 - 43 - 89</a>
+						</li>
+					</ul>
+				</div>
+				<div class="site-footer__bottom">
+					<small class="site-footer__small">© 2020 example. All Rights Reserved.</small>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

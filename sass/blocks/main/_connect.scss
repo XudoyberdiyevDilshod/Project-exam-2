@@ -20,6 +20,10 @@
   background-color: #333333;
 }
 
+.connect__desc {
+  width: 375px;
+}
+
 .connect__title {
   margin: 0;
   margin-bottom: 14px;
@@ -36,4 +40,71 @@
   font-size: 16px;
   line-height: 20px;
   color: #949494;
+}
+
+.connect__input {
+  display: block;
+  width: 375px;
+  margin-bottom: 14px;
+  padding: 16px 0 13px 22px;
+}
+
+.connect__input::placeholder {
+  opacity: 0.5;
+}
+
+.connect__input:required {
+  outline: none;
+  color: #dc4d41;
+  border: 2px solid #dc4d41;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+.connect__input:focus {
+  outline: #ffbd54;
+  color: #333333;
+  border: 2px solid #ffbd54;
+  border-radius: 5px;
+  opacity: 1;
+}
+
+#textarea {
+  display: block;
+  width: 375px;
+  resize: none;
+  margin-bottom: 30px;
+  padding: 16px 0 13px 22px;
+}
+
+#textarea::placeholder {
+  opacity: 0.5;
+}
+
+.textarea__span {
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+}
+
+.connect__button {
+  display: inline-block;
+  padding: 15px 49px 14px 50px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  background-color: #ffbd54;
+  border-radius: 0px;
+}
+
+.connect__button:hover {
+  color: #ffbd54;
+  background: #333333;
+}
+
+.connect__button:active {
+  opacity: 0.6;
 }

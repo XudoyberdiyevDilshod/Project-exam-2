@@ -1,0 +1,217 @@
+.site-footer {
+  padding: 54px 0 23px;
+  background-color: #f3f3f3;
+  border: 1px solid #ebebeb;
+}
+
+.site-footer__inner {
+  display: flex;
+  align-items: flex-start;
+}
+
+.site-footer__img:hover {
+  opacity: 0.8;
+}
+
+.site-footer__img:active {
+  opacity: 0.6;
+}
+
+.site-footer__list {
+  width: 288px;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 0;
+  margin-left: 67px;
+  padding: 0;
+  list-style-type: none;
+}
+
+.site-footer__item:nth-child(1) {
+  margin: 0 121px 14px 0;
+}
+.site-footer__item:nth-child(2) {
+  margin-bottom: 16px;
+}
+.site-footer__item:nth-child(3) {
+  margin: 0 100px 14px 0;
+}
+.site-footer__item:nth-child(4) {
+  margin-bottom: 12px;
+}
+.site-footer__item:nth-child(5) {
+  margin: 0 87px 0 0;
+}
+.site-footer__item:nth-child(6) {
+  margin: 0;
+}
+
+.site-footer__link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.site-footer__link:hover {
+  color: #ffbd54;
+}
+
+.site-footer__link:active {
+  color: #333333b3;
+}
+
+.footer__list {
+  display: flex;
+  align-items: flex-start;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.footer__item {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+}
+
+.footer__item:nth-child(1) {
+  margin-left: 127px;
+}
+
+.footer-main__list {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 155px;
+  padding-left: 30px;
+  background-image: url("../images/schedule.svg");
+  background-repeat: no-repeat;
+  background-size: 14px 14px;
+}
+
+.footer__item:nth-child(2) {
+  margin-left: 137px;
+  padding-left: 30px;
+  width: 165px;
+  background-image: url("../images/house.svg");
+  background-repeat: no-repeat;
+  background-size: 14px 14px;
+}
+
+.footer__item:nth-child(3) {
+  margin-left: 65px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding-left: 30px;
+  background-image: url("../images/tel.svg");
+  background-repeat: no-repeat;
+  background-size: 14px 14px;
+}
+
+.footer__link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  color: #333333;
+  text-decoration: none;
+}
+
+.site-footer__small {
+  display: inline-block;
+  margin-top: 28px;
+  margin-left: 1090px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5c5c5c;
+}
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (min--moz-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
+    .hero__inner {
+      background-image: url("../images/bgi@2x.jpg");
+    }
+    @media only screen and (max-width: 768px) {
+      .hero__inner {
+        background-image: url("../images/bgi-tablet@2x.jpg");
+      }
+    }
+    @media only screen and (max-width: 576px) {
+      .hero__inner {
+        background-image: url("../images/bgi-mobile@2x.jpg");
+      }
+    }
+    .collection__inner {
+      background-image: url("../images/collection-bg-img@2x.png");
+    }
+    .collection__item:nth-child(1)::before {
+      background-image: url("../images/Gran-Espresso@2x.png");
+    }
+    
+    .collection__item:nth-child(2)::before {
+      background-image: url("../images/Planalto@2x.png");
+    }
+    
+    .collection__item:nth-child(3)::before {
+      background-image: url("../images/Piccollo@2x.png");
+    }
+    
+    .collection__item:nth-child(4)::before {
+      background-image: url("../images/Danche@2x.png");
+    }
+    .about__inner {
+      background-image: url("../images/about-bgi@2x.jpg");
+    }
+    @media only screen and (max-width: 768px) {
+      .about__inner {
+        background-image: url("../images/about-bgi-tablet@2x.jpg");
+      }
+    }
+    
+    @media only screen and (max-width: 576px) {
+      .about__inner {
+        background-image: url("../images/about-bgi-mobile@2x.jpg");
+      }
+    }
+    .commitment__inner {
+      background-image: url("../images/commitment@2x.jpg");
+    }
+    @media only screen and (max-width: 768px) {  
+      .commitment__inner {
+        background-image: url("../images/commitment-tablet@2x.jpg");
+      }
+    }
+    
+    @media only screen and (max-width: 576px) {    
+      .commitment__inner {
+        background-image: url("../images/commitment-mobile@2x.jpg");
+      }
+    }
+    .capuchino {
+      background-image: url("../images/capuchino@2x.jpg");
+    }
+    @media only screen and (max-width: 768px) {    
+      .capuchino {
+        background-image: url("../images/capuchino-tablet@2x.jpg");
+      }
+    }
+    @media only screen and (max-width: 576px) {   
+      .capuchino {
+        background-image: url("../images/capuchino-mobile@2x.jpg");
+      }
+    }
+}
+
