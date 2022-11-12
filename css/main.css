@@ -386,7 +386,6 @@ main {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50%;
-  background-color: dimgray;
 }
 
 img {
@@ -709,7 +708,7 @@ img {
   display: inline-block;
   width: 142px;
   height: 128px;
-  background-image: url("../../../images/quote-up.svg");
+  background-image: url("../images/quote-up.svg");
   background-repeat: no-repeat;
   content: "";
 }
@@ -721,7 +720,7 @@ img {
   display: inline-block;
   width: 148px;
   height: 78px;
-  background-image: url("../../../images/quote-down.svg");
+  background-image: url("../images/quote-down.svg");
   background-repeat: no-repeat;
   content: "";
 }
@@ -873,7 +872,7 @@ img {
   padding: 74px 105px 74px 0;
   background-color: #ffffff;
   border-radius: 0px 5px 5px 5px;
-  background-image: url("../../../images/m-cat.webp");
+  background-image: url("../images/m-cat.webp");
   background-repeat: no-repeat;
   background-size: 524px 329px;
   background-position: top 42px left 35px;
@@ -980,7 +979,7 @@ img {
   margin: 235px auto 151px;
   width: 100%;
   max-width: 1440px;
-  background-image: url("../../../images/dog.webp"), url("../../../images/bgi-section.webp");
+  background-image: url("../images/dog.webp"), url("../images/bgi-section.webp");
   background-repeat: no-repeat;
   background-size: 613px 481px, 1440px 308px;
   background-position: calc(50% + 350px) calc(50% - 21px), center;
@@ -1521,4 +1520,19 @@ img {
   font-size: 14px;
   line-height: 18px;
   color: #5c5c5c;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
+  .hero {
+    background-image: url("../images/animals@2x.webp"), url("../images/parrot@2x.webp");
+  }
+  .services__part {
+    background-image: url("../images/m-cat@2x.webp");
+  }
+  .date {
+    background-image: url("../images/dog@2x.webp"), url("../images/bgi-section@2x.webp");
+  }
+  .connect__content {
+    background-image: url("../images/feedback-bg@2x.webp");
+  }
 }/*# sourceMappingURL=main.css.map */

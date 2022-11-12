@@ -134,13 +134,24 @@
   color: #5c5c5c;
 }
 
-
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
   only screen and (min--moz-device-pixel-ratio: 2),
   only screen and (-o-min-device-pixel-ratio: 2/1),
   only screen and (min-device-pixel-ratio: 2),
   only screen and (min-resolution: 192dpi),
   only screen and (min-resolution: 2dppx) {
-
+  .hero {
+    background-image: url("../images/animals@2x.webp"),
+      url("../images/parrot@2x.webp");
+  }
+  .services__part {
+    background-image: url("../images/m-cat@2x.webp");
+  }
+  .date {
+    background-image: url("../images/dog@2x.webp"),
+      url("../images/bgi-section@2x.webp");
+  }
+  .connect__content {
+    background-image: url("../images/feedback-bg@2x.webp");
+  }
 }
-
